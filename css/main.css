@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/OpenSansCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSansCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: "Opens Sans", "Arial", sans-serif;
+}
+
+.header-class{
+    display: flex;
+    justify-content: space-between;
+    padding: ;
+}
+
+.header-list{
+    margin: 0px 32px;
+}
+
+.head-logo{
+    width: 50;
+    height: 50;
+}
+
+.head-text{
+    width: 119;
+    height: 33;
+}
+
+.header-list{
+    list-style: none;
+}
+
+.header-list-item{
+    width: 96px;
+    height: 21px;font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-button{
+    width: 189px;
+    height: 47px;
+    background-color: #DE2E54;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+}
+
+.button-span{
+    width: 141px;
+    height: 23px;
+    font-family: "Open Sans", "Arial", sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main-section{
+    width: 1440px;
+    height: 533px;
+    background-color: #0EB4C1;
+}
+
+.intro-main{
+    width: 500px;
+    height: 86px;
+    font-family: "Open Sans COndensed", "Arial", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.intro-paragraph{
+    width: 440px;
+    height: 108px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.intro-pic{
+    width: 423px;
+    height: 504px;
+
+}
+
+.main-h2{
+    width: 133px;
+    height: 43px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.main-list-item{
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+}
